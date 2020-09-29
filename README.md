@@ -3,7 +3,7 @@
 ## __Purpose & Data__
 This repo serves as a demonstration of my work with a unique, little-analyzed dataset.  Data has been secured from the BoardGameGeek.com (BGG) API via the [boardgamegeek](https://pypi.org/project/boardgamegeek/) package.
 
-The main notebook of interest is currently `predict_bgg_rating.ipynb`.
+The main notebook of interest is currently [`predict_bgg_rating.ipynb`](https://github.com/alofgran/boardgame_value/blob/master/predict_bgg_rating.ipynb).
 
 This repo pulls data from BoardGameGeek.com and MiniatureMarket with the goal of developing some sort of valuation around board games.  The features of the dataset are quite skewed, have a high kurtosis, and are heteroskedastic.  I employed my understanding of statistical methods and research of machine learning algorithms to develop an in depth analysis of the data, and developing a machine learning pipeline that can handle the identified hurdles.  The `predict_bgg_rating` notebook goes much deeper into this analysis of the BGG dataset.
 
