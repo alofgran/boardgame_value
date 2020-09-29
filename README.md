@@ -17,7 +17,7 @@ Once I collect enough price data, I'll be able to use the standard deviation of 
 
 Ideally, the end result will allow users to modify criteria to define their own value (by filtering the data) and deriving predictions for filtered games.
 
-##__Related Efforts__
+## __Related Efforts__
 * https://github.com/garrettseward/boardgame-sentiment
 * https://github.com/romulofff/BoardGameGeekAnalysis (note: this is in Portuguese)
 * https://github.com/Laurencewm/BoardGamePriceAnalysis
