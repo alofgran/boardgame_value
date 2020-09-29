@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 # Boardgame Values
-
-This repo pulls data from BoardGameGeek.com and MiniatureMarket with the goal of developing some sort of valuation around board games.  
-
-The valuation will then be able to determine if, for the user, whether the game will be worth buying at the current price.
-
-The details and method of the valuation have yet to be determined.
 =======
-# Boardgame Values
 
 ## __Purpose & Data__
 This repo serves as a demonstration of my work with a unique, little-analyzed dataset.  Data has been secured from the BoardGameGeek.com (BGG) API via the [boardgamegeek](https://pypi.org/project/boardgamegeek/) package.
 
-The features of the dataset are quite skewed, have a high kurtosis, and are heteroskedastic.  I employed my understanding of statistical methods and research of machine learning algorithms to develop an in depth analysis of the data, and developing a machine learning pipeline that can handle the identified hurdles.  The `predict_bgg_rating` notebook goes much deeper into this analysis of the BGG dataset.
+This repo pulls data from BoardGameGeek.com and MiniatureMarket with the goal of developing some sort of valuation around board games.  The features of the dataset are quite skewed, have a high kurtosis, and are heteroskedastic.  I employed my understanding of statistical methods and research of machine learning algorithms to develop an in depth analysis of the data, and developing a machine learning pipeline that can handle the identified hurdles.  The `predict_bgg_rating` notebook goes much deeper into this analysis of the BGG dataset.
 
 ## __Business Cases__
 __Game Rating Prediction__ - Because this analysis involves so many potential criteria, its value is easily relatable to many game designers.  This model allows users to create a theoretical boardgame based on hundreds of criteria (e.g. which categories and mechanics it employs, suggested age ranges, specific designers/artists, etc.) and then determine what rating such a game may have with (currently) very high accuracy.  A game with a high rating will appear higher on BGG's lists, developing organic marketing efforts (this notebook shows a clear correlation between individuals owning/reviewing/rating a game and individuals wanting/wishing for the game).  While approaching game design from this point of view isn't as artistic as one may like, I suggest it could be a viable business strategy due to the strong correlation between
@@ -31,4 +23,3 @@ Ideally, the end result will allow users to modify criteria to define their own 
 * https://github.com/romulofff/BoardGameGeekAnalysis (note: this is in Portuguese)
 * https://github.com/Laurencewm/BoardGamePriceAnalysis
 * https://github.com/natc79/BoardGameReviews (linear regression of similar data)
->>>>>>> 8b0931ebbc8061a08a9b42a96a5f6730e7918f04
